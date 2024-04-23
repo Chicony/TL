@@ -1,0 +1,206 @@
+{
+	"baseURL": "http://localhost:1314",
+	"defaultContentLanguage": "ru-ru",
+	"title": "Demo",
+	"disableKinds": [
+		"taxonomy"
+  ],
+	"languages": {
+		"ru-ru": {
+			"languageName": "Русский",
+			"languageCode": "ru-ru",
+			"params": {
+				"languageImg": "/img/languages/ru.png",
+				"languageShort": "РУ"
+			},
+			"menus": {
+				"main": [
+					{
+						"name": "О гостинице",
+						"pageRef": "/",
+						"weight": 10
+					},
+					{
+						"name": "Мебелированные комнаты",
+						"pageRef": "/",
+						"weight": 15
+					},
+					{
+						"name": "Спецпредложения",
+						"pageRef": "/",
+						"weight": 20
+					},
+					{
+						"name": "Рестораны и бары",
+						"pageRef": "/",
+						"weight": 25
+					},
+					{
+						"name": "Услуги",
+						"pageRef": "/",
+						"weight": 30
+					},
+					{
+						"name": "Конференц-залы",
+						"pageRef": "/",
+						"weight": 35
+					},
+					{
+						"name": "Экскурсии",
+						"pageRef": "/",
+						"weight": 40
+					},
+					{
+						"name": "Фотогалерея",
+						"pageRef": "/",
+						"weight": 45
+					},
+					{
+						"name": "Отзывы",
+						"pageRef": "/",
+						"weight": 50
+					},
+					{
+						"name": "Контакты",
+						"pageRef": "/",
+						"weight": 55
+					},
+					{
+						"name": "Бронирование",
+						"pageRef": "/",
+						"weight": 60
+					}
+				]
+			},
+			"title": "Демо"
+		},
+		"en-gb": {
+			"languageName": "English",
+			"languageCode": "en-gb",
+			"params": {
+				"languageImg": "/img/languages/en.png",
+				"languageShort": "EN"
+			},
+			"menus": {
+				"main": [
+					{
+						"name": "About",
+						"pageRef": "/",
+						"weight": 10
+					},
+					{
+						"name": "Rooms",
+						"pageRef": "/",
+						"weight": 15
+					},
+					{
+						"name": "Offers",
+						"pageRef": "/",
+						"weight": 20
+					},
+					{
+						"name": "Restaurants and Bars",
+						"pageRef": "/",
+						"weight": 25
+					},
+					{
+						"name": "Services",
+						"pageRef": "/",
+						"weight": 30
+					},
+					{
+						"name": "Conference rooms",
+						"pageRef": "/",
+						"weight": 35
+					},
+					{
+						"name": "Excursions",
+						"pageRef": "/",
+						"weight": 40
+					},
+					{
+						"name": "Gallery",
+						"pageRef": "/",
+						"weight": 45
+					},
+					{
+						"name": "Reviews",
+						"pageRef": "/",
+						"weight": 50
+					},
+					{
+						"name": "Contacts",
+						"pageRef": "/",
+						"weight": 55
+					},
+					{
+						"name": "Booking",
+						"pageRef": "/",
+						"weight": 60
+					}
+				]
+			},
+			"title": "Demo"
+		},
+		"cs-cs": {
+			"languageName": "Český",
+			"languageCode": "cs-cs",
+			"params": {
+				"languageImg": "/img/languages/cs.png",
+				"languageShort": "ČE"
+			},
+			"title": "Demo"
+		},
+		"be-be": {
+			"languageName": "Белорусский",
+			"languageCode": "be-be",
+			"params": {
+				"languageImg": "/img/languages/be.png",
+				"languageShort": "БЕ"
+			},
+			"title": "Дэма"
+		}
+	},
+	"params": {
+		"mainContent": {
+			"socialNetworks": {
+				"in": {
+					"img": "/img/icons/IN.png",
+					"url": "/",
+					"weight": 10
+				},
+				"fb": {
+					"img": "/img/icons/FB.png",
+					"url": "/",
+					"weight": 15
+				},
+				"vk": {
+					"img": "/img/icons/VK.png",
+					"url": "/",
+					"weight": 20
+				},
+				"ok": {
+					"img": "/img/icons/OK.png",
+					"url": "/",
+					"weight": 25
+				},
+				"tw": {
+					"img": "/img/icons/TW.png",
+					"url": "/",
+					"weight": 30
+				},
+				"go": {
+					"img": "/img/icons/G+.png",
+					"url": "/",
+					"weight": 35
+				},
+				"yt": {
+					"img": "/img/icons/YT.png",
+					"url": "/",
+					"weight": 40
+				}
+			},
+			"logoUrl": "/img/logo.png"
+		}
+	}
+}

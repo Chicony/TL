@@ -1,0 +1,19 @@
+<div class="header__dropdown-language dropdown">
+  <img class="header__dropdown-image" src="{{ absURL site.Params.languageImg }}" alt="Language flag">
+  <span class="header__dropdown-short">{{ site.Params.languageShort }}</span>
+  <img src="/img/icons/dropdown.png" alt="Dropdown arrow">
+  <div class="header__menu-language-dropdown dropdown__content">
+    <ul class="header__menu-list header__menu-list_column">
+      {{ range .AllTranslations }}
+        {{ if ne site.Language.LanguageCode .Language.LanguageCode }}
+          <li class="header__menu-item dropdown__item">
+            <a class="header__menu-link" href="{{ absURL .Language.LanguageCode }}">
+              <img class="header__menu-language-img" src="{{ absURL .Language.Params.languageImg }}" alt="">
+              {{ .Language.LanguageName | truncate 17 }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+</div>

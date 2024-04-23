@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		{{ partial "head.html" . }}
+	</head>
+	<body id="mainBodyId" style="background-color: #848484; color: #fff;">
+		{{ partial "header/header.html" . }}
+		<main>
+			{{ block "main" . }}{{ end }}
+		</main>
+		{{ partial "scripts.html" }}
+	</body>
+</html>

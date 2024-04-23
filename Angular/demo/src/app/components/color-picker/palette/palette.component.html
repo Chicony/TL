@@ -1,0 +1,7 @@
+<div class="pallete__container">
+  <div class="pallete__container_polygon" id="idContainerBackgroundColor">
+    @for (item of arrColors; track item) {
+      <div onclick="clickPallete(this)" class="pallete__item" attr.data-color="{{ item }}" style="background-color: {{ item }};"></div>
+    }
+  </div>
+</div>

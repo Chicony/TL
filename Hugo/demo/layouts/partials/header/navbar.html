@@ -1,0 +1,14 @@
+{{ with site.Menus.main }}
+  <div class="header__dropdown-navbar dropdown">
+    <div class="header__navbar-button button__burger"></div>
+    <div class="header__menu-navbar dropdown__content">
+      <ul class="header__menu-list">
+        {{ range . }}
+          <li class="header__menu-item dropdown__item">
+            <a class="header__menu-link" href="{{ .URL }}">{{ .Name | truncate 35 }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+{{ end }}

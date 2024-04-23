@@ -1,0 +1,7 @@
+{{ with site.Params.mainContent.socialNetworks }}
+  {{ range sort . ".Weight" }}
+    <a class="header__social-networks-link" href="{{ .url }}">
+      <img class="header__social-networks-img" src="{{ .img }}" alt="">
+    </a>
+  {{ end }}
+{{ end }}
